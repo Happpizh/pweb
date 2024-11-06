@@ -160,4 +160,14 @@ nav ul li a {
    color: var(--secondary-fontcolor);
 }
 
+/* Animasi tipis */
+.grid-film{
+   opacity: 0;
+   transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.grid-film.show{
+   opacity: 1;
+}
+
 
