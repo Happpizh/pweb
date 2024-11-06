@@ -1,0 +1,76 @@
+/* Style umum untuk body */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f9;
+   color: #333;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+
+/* Style untuk heading */
+h1 {
+   color: #333;
+   font-size: 24px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+/* Style form */
+form {
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   width: 100%;
+   max-width: 500px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+/* Style untuk label */
+label {
+   font-weight: bold;
+   color: #080530;
+}
+
+/* Style untuk input teks dan file */
+input[type="text"],
+input[type="file"] {
+   width: 100%;
+   padding: 8px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+.deskripsi input[type="text"]{
+   width: 100%;
+   height: 150px;
+   padding: 8px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+/* Style untuk button */
+button[type="submit"] {
+   background-color: #080530;
+   color: #fff;
+   padding: 10px;
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+   background-color: #020617;
+}

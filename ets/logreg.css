@@ -1,0 +1,153 @@
+:root{
+   --primary-fontcolor : antiquewhite;
+   --secondary-fontcolor :  #f7c531;
+   --primary-background :#111827;
+   --secondary-background : #020617;
+}
+
+/* Login */
+body{
+   background-color: var(--primary-background);
+   font-family: Arial, sans-serif;
+}
+
+#login{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#login h1{
+   font-size: 50px;
+   color: var(--secondary-fontcolor);
+}
+
+.menu-login{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 650px;
+   height: 500px;
+   border: 1px #3a3939;
+   border-radius: 5%;
+   font-size: 20px;
+   background-color: var(--secondary-background);
+}
+
+.menu-login form{
+   align-items: center;
+   text-align: center;
+   color: var(--primary-fontcolor);
+}
+
+.uss-pw input {
+   width: 450px;
+   height: 50px;
+   border: 1px solid var(--primary-fontcolor);
+   font-size: 20px;
+   text-align: center;
+   background-color: var(--primary-background);
+   color: var(--primary-fontcolor);
+}
+
+
+.log-button{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+
+.log-button button{
+   border: none;
+   background-color: rgba(240, 248, 255, 0.568);
+   width: 100%;
+   height: 40px;
+   font-size: 20px;
+}
+
+.log-button button:hover{
+   border: none;
+   background-color: rgba(16, 175, 82, 0.877);
+   width: 100%;
+   height: 40px;
+   font-size: 20px;
+}
+
+
+/* Register */
+#regis{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#regis h1{
+   font-size: 50px;
+   color: var(--secondary-fontcolor);
+}
+
+.regis-menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--secondary-background);
+   width: 650px;
+   height: 500px;
+   border: 1px #3a3939;
+   border-radius: 5%;
+   font-size: 20px;
+}
+
+.regis-menu form{
+   align-items: center;
+   text-align: center;
+   color: var(--primary-fontcolor);
+}
+
+.usr-pwr input {
+   width: 450px;
+   height: 50px;
+   border: 1px solid var(--primary-fontcolor);
+   font-size: 20px;
+   text-align: center;
+   background-color: var(--primary-background);
+   color: var(--primary-fontcolor);
+}
+
+.reg-button{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+select{
+   background-color: rgba(240, 248, 255, 0.568);
+}
+
+.reg-button button{
+   border: none;
+   background-color: rgba(240, 248, 255, 0.568);
+   width: 100%;
+   height: 40px;
+   font-size: 20px;
+}
+
+.reg-button button:hover{
+   border: none;
+   background-color: rgba(16, 175, 82, 0.877);
+   width: 100%;
+   height: 40px;
+   font-size: 20px;
+}
+

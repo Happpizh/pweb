@@ -1,0 +1,163 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #111827;
+   font-family: Arial, sans-serif;
+}
+
+:root{
+   --primary-fontcolor : antiquewhite;
+   --secondary-fontcolor :  #f7c531;
+}
+
+.main-container {
+   background-color: #080530;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 14rem;
+   position: fixed;
+   z-index: 9999;
+   border-bottom: 1px solid antiquewhite;
+}
+
+@media screen and (max-width : 100%) {
+   .main-container {
+      width: 90%;
+   }
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 0;
+}
+
+.nav ul {
+   list-style: none;
+   display: flex;
+   gap: 3rem;
+}
+
+.logo h1{
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   font-size: 25px;
+}
+
+nav ul li {
+   display: flex;
+   align-items: center;
+}
+
+nav ul li a {
+   color: var(--primary-fontcolor);
+   transition: 0.5s;
+   text-decoration: none;
+}
+
+.nav ul li a:hover{
+   color: var(--secondary-fontcolor);
+}
+
+
+
+#body{
+   height: 100%;
+   align-items: center;
+   padding-top: 5rem;
+}
+
+.grid-film{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 5rem;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   padding-top: 2rem;
+   padding-bottom: 7rem;
+}
+
+.film-point{
+   background-color: #020617bb;
+   border: none;
+   padding: 1rem;
+   height: auto;
+   border-radius: 5%;
+}
+
+.film-info{
+   padding-bottom: 2rem;
+}
+
+.film-info h1{
+   color: var(--secondary-fontcolor);
+} 
+
+.film-info h3, .film-info p{
+   color: var(--primary-fontcolor);
+}
+
+.film-cover img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 5%;
+}
+
+.opsi{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.opsi button{
+   width: 100px;
+   height: 25px;
+   background-color: var(--secondary-fontcolor);
+   border: none;
+}
+
+.opsi button:hover{
+   width: 100px;
+   height: 25px;
+   background-color: #ebc247;
+   border: none;
+}
+
+.opsi a{
+   width: 100px;
+   height: 25px;
+   background-color: var(--secondary-fontcolor);
+   border: none;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   line-height: 25px;
+}
+
+.opsi a:hover{
+   width: 100px;
+   height: 25px;
+   background-color: #ebc247;
+   border: none;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   line-height: 25px;
+}
+
+.logo h1{
+   color: var(--primary-fontcolor);
+}
+
+.yellowfont{
+   color: var(--secondary-fontcolor);
+}
+
+
